@@ -1,0 +1,41 @@
+body{
+    background-color: #131f10;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: #c51e1e;
+}
+
+p{
+    text-align: center;
+    font-family: cursive;
+    color: #c51e1e;
+}
+#games{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto;
+    justify-items:center;
+    align-items: center;   
+}
+.gallery{
+    display:flex;
+    flex-direction: column;
+}
+img{
+    flex: 1;
+    filter: drop-shadow(8px 8px 10px #c51e1e);
+    border-radius: 10px; 
+    height: 300px; 
+    width: 400px;
+     
+}
+img:hover{
+    transform: scale(1.1, 1.1);  
+    transition: 1s;  
+}
+button{
+    background: none;
+    border: none;
+}

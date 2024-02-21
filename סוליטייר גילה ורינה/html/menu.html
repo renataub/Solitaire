@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solitaire</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="icon" type="image/x-icon" href="../pictures/Solitaire_1800x1000-min (1).png">
+</head>
+
+<body>
+    <div id="top">
+        <h1>CHOOSE A GAME TO PLAY</h1>
+    </div>
+    <div id="games">
+        <div class="gallery">
+            <a href="https://www.google.com/logos/fnbx/solitaire/standalone.html">
+                <button><img src="../menu pictures/children.png" height="200" width="350"></button>
+            </a>
+            <p>SOLITAIRE FOR CHILDREN</p>
+        </div>
+
+        <div class="gallery">
+            <a href="rules.html">
+                <button onclick="Game(), mixCards(), startGame()">
+                    <img src="../menu pictures/solitaire.jpg" height="200" width="350">
+                </button>
+            </a>
+            <p>SOLITAIRE</p>
+        </div>
+
+        <div class="gallery">
+            <a href="https://apps.apple.com/us/app/freecell-solitaire-card-game/id301987699">
+                <button><img src="../menu pictures/freecell.png" height="200" width="350"></button>
+            </a>
+            <p>FREECELL</p>
+        </div>
+
+        <div class="gallery">
+            <a href="https://apps.apple.com/us/app/spider-solitaire-card-game/id395979574">
+                <button><img src="../menu pictures/spider.jpg" height="200" width="350"></button>
+            </a>
+            <p>SPIDER SOLITAIRE</p>
+        </div>
+    </div>
+</body>
+<script src="../js/game.js"></script>
+
+</html>

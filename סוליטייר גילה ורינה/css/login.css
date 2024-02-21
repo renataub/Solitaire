@@ -1,0 +1,114 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+
+
+#logo {
+	justify-content: center;
+	height: 250px;
+	width: 500px;
+  }
+  
+  html {
+	background-color: #131f10;
+  }
+  
+  body {
+	background: transparent;
+  }
+  
+  body,
+  input,
+  button {
+	font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .login {
+	width: 550px;
+	font-size: 1.7em;
+	min-height: 0;
+	padding: 15px;
+	min-height: 400px;
+	margin:10% auto 0 auto;
+  }
+  
+  .heading {
+	text-align: center;
+  }
+  
+  form .input-group {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	margin: 30px;
+  }
+  
+  form :last-of-type {
+	border-top: none;
+  }
+  
+  form span {
+	background: transparent;
+	min-width: 53px;
+	border: none;
+  }
+  
+  input.form-control {
+	padding: 10px;
+	font-size: 1.6em;
+	width: 100%;
+	background: transparent;
+	color: lighten(#c51e1e, 10%);
+  }
+  
+  input.form-control:focus {
+	border: none;
+  }
+  
+  button {
+	background: #c51e1e;
+	margin-top: 20px;
+	width: 88%;
+	border: none;
+	font-size: 1.6em;
+	font-weight: 300;
+	padding: 5px 0;
+	border-radius: 8px;
+	color: white;
+	border-bottom: 4px solid darken(#c51e1e, 10%);
+  }
+  
+  button:hover {
+	background: tint(#c51e1e, 4%);
+	-webkit-animation: hop 1s;
+	animation: hop 1s;
+  }
+  
+  .float {
+	display: inline-block;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  
+  .float:hover,
+  .float:focus,
+  .float:active {
+	-webkit-transform: translateY(-3px);
+	transform: translateY(-3px);
+  }
+  
+  #link {
+	margin-top: 30px;
+	color: #ffffff;
+  }
+  
+  a {
+	color: #ffffff;
+  }
+  
+  p {
+	display: inline;
+  }

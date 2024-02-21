@@ -1,0 +1,185 @@
+body{
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    flex-direction: column
+}
+
+/* .navbar {
+    background: rgba(8,8,8,.75);
+ }
+ .navbar a {
+    color: #fff;
+ }
+ .navbar li[data-active="false"] {
+    opacity: 0.5;
+    pointer-events: none;
+ }
+ .navbar li[data-active="true"] {
+    opacity: 1;
+    pointer-events: auto;
+ }
+ .template {
+    display: none;
+ } */
+ #score {
+    position: relative;
+    background: rgba(0,0,0,.15);
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    padding: 1em;
+    line-height: 1;
+ }
+ #score > * {
+    display: inline-block;
+    min-width: 100px;
+ }
+ #score > *:last-child {
+    float: right;
+    text-align: right;
+ }
+ #score label {
+    margin-bottom: 0;
+ }
+ #score .timer button {
+    display: none;
+    position: absolute;
+    -webkit-appearance: none;
+    background: transparent;
+    outline: none;
+    border: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 3em;
+    height: 100%;
+ }
+ #score .timer button i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+ }
+ #score .timer button i::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.75em;
+    height: 1em;
+    margin-left: -0.375em;
+    margin-top: -0.5em;
+    font-size: 1.5rem;
+    content: none;
+ }
+ #score .timer button i#play::before {
+    border-top: 8px solid transparent;
+    border-left: 12px solid #fff;
+    border-bottom: 8px solid transparent;
+ }
+ #score .timer button i#pause::before {
+    border-right: 4px solid #fff;
+    border-left: 4px solid #fff;
+ }
+ [data-gameplay="active"] #score .timer button,
+ [data-gameplay="paused"] #score .timer button {
+    display: inline-block;
+ }
+ [data-gameplay="active"] #score .timer button i#pause::before,
+ [data-gameplay="paused"] #score .timer button i#play::before {
+    content: '';
+ }
+ [data-gameplay="active"] #score,
+ [data-gameplay="paused"] #score {
+    padding-left: 3em;
+ }
+
+
+#game{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#deck{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#open{
+    margin: 85px  0 0;
+}
+.cards{
+    height: 120px;
+    width: 80px;
+    border: 1px solid;
+}
+#topCards{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.topCards{
+    height: 120px;
+    width: 80px;
+    border: 1px solid;
+    margin-top: 70px;
+    margin-bottom: 10%px;
+    margin: 16px;
+}
+#fourCards{
+   
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+}
+.rows{
+    display: flex;
+    justify-content: space-between;
+} 
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-top:120px;
+}
+.column1{
+    display: flex;
+   flex-direction: column;  
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    margin-top: -70px;
+    height: 120px;
+    width: 80px;
+}
+header{
+    background-color: inherit;
+}
+.gameFooterElements{
+    margin-bottom: 0px;
+}
+
+button{
+    background: black;
+    color: white;
+    width: 10%;
+}
+#logo{
+    height: 200px;
+    width: 550px; 
+    
+}
+.gameFooterElements{
+    margin-bottom: 0px;
+}
+@media (max-width: 1050px) {
+
+}

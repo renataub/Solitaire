@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solitaire</title>
+    <link rel="stylesheet" href="../css/game.css">
+    <link rel="icon" type="image/x-icon" href="../pictures/Solitaire_1800x1000-min (1).png">
+</head>
+<body onload="shuffle(),Game(),startOpen()">
+    <nav>
+        <div>
+            <p id="score" class="score">SCORE: </p>
+            <p id="time_num" class="score_timer"></p>
+        </div>
+    </nav>
+    <div id="game">
+        <div id="gameBoard"></div>
+        <div class="gameFooterElements">
+            <img src="../pictures/logo.png" id="logo">
+            <button onclick="newGame()" id="gameButtons">NEW GAME</button>
+            <button onclick="menu()" id="gameButtons">BACK TO MENU</button>
+            <button onclick="rules()" id="gameButtons">GAME RULES</button>
+        </div>
+    </div>
+</body>
+<script src="../js/game.js"></script>
